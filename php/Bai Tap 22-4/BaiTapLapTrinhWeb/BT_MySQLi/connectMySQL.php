@@ -36,7 +36,11 @@
     }
     
 
-
+    echo "<br>check1";
+    //$row1 = mysqli_fetch_assoc($result);
+        echo '<pre>';
+       print_r($result);
+        echo '</pre>';
 
     ?>
     <table style = "width: 100%; text-align:center">
@@ -93,6 +97,13 @@
                 
     //$conn->close();
         //header("location:connectMySQL.php");
+        echo "<br>check2";
+        //$row1 = mysqli_fetch_assoc($result);
+            echo '<pre>';
+           print_r($result);
+            echo '</pre>';
+    
+        ?>
     ?>
 </body>
 </html>
